@@ -9,7 +9,7 @@ print('Possible company:', '，'.join(possible_company_name2))#这个只是把�
 
 
 
-guess_url='http://m.kuaidi100.com/autonumber/auto?num=3953390300077'
+guess_url='http://m.kuaidi100.com/autonumber/auto?num=XXX'
 
 #获取数据
 res = json.loads(urlopen(guess_url).read().decode('utf-8'))#json是为了把获得的数据变成列表类型
@@ -27,7 +27,7 @@ print('Possible company:', '，'.join(possible_company_name))
 QUERY = 'http://m.kuaidi100.com/query?{0}'
 params = urlencode({
     'type': 'yunda',
-    'postid': 3953390300077,
+    'postid': XXX,
     'id': 1,
     'valicode': '',
     'temp': random.random()
